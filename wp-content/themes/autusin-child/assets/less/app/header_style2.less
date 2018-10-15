@@ -1,0 +1,176 @@
+#widget_indexdm, #indexdm_img{
+	display: none !important;
+}
+.home-style2{
+	.sw-category-slider2{
+		margin-bottom: 0;
+	}
+	.sw-woo-tab-cat{
+		margin-top: 39px;
+	}
+	.sw-brand-container-slider{
+		margin: 41px 0 29px;
+	}
+}
+.header-style2{
+	border-bottom: 1px @border-color solid;
+	.home-style2 &{
+		border-bottom: none; position: absolute; top: 0; left: 0; right: 0; z-index: 9;
+	}
+	.header-top {
+		background: rgba(0,0,0,0.7);
+		.home-style2 &{
+			margin-bottom: 30px;
+		}
+		.left-header{
+			margin: 0;
+		}
+		.right-header2{
+			padding-right: 15px;
+			.rtl &{
+				padding-right: 0; padding-left: 15px;
+			}
+		}
+	}
+	.header-mid{
+		padding: 0;
+		.container{
+			background: #fff; padding: 10px 0;
+		}
+		.autusin-logo{
+
+		}
+	}
+	#lang_sel > ul.nav{
+		margin: 0;
+		.rtl &{
+			margin-right: 0;
+		}
+		> li > a{
+			padding-left:0;
+			.rtl &{
+				padding-right: 0;
+			}
+		}
+	}
+	.top-form.top-form-minicart {
+		padding: 5px 15px;
+		.top-minicart-icon{
+			width: 50px; height: 40px; background: url(../assets/img/icon-cart2.png) no-repeat center bottom; position: relative;
+			h3{
+				display: none;
+			}
+			p{
+				font-size: 0; position: absolute; right: 0; top: 0;
+				span{
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	.top-form:hover .wrapp-minicart{
+		.translateY(20px);
+	}
+}
+.form-new2{
+	float: right;
+	.rtl &{
+		float: left;
+	}
+	h3{
+		float: left; font-size: 20px; color: @body-color; text-transform: capitalize; padding-top: 17px; padding-right: 20px;
+		.rtl &{
+			float: right;
+		}
+		.rtl &{
+			padding-right: 0; padding-left: 20px;
+		}
+	}
+	.mc4wp-form{
+		float: right; border-left: 1px @border-color solid;
+		.rtl &{
+			float: left;
+		}
+		.rtl &{
+			border-left: none; border-right: 1px @border-color solid;
+		}
+		p{
+			margin-bottom: 0;
+		}
+		.mc4wp-form-fields{
+			overflow: hidden; min-width: 400px;
+		}
+		input[type="email"]{
+			border: none; border-radius: 0;	color:#8c8c8c; font-size: 12px; margin-bottom: 0;
+			height:60px; line-height: 60px; padding: 0 15px; width: 75%; float: left;
+			.rtl &{
+				float: right;
+			}
+		}
+		input[type="submit"]{
+			border: none; border-radius: 0; width: 25%; font-size: 12px; padding: 0;
+			background:#0d0d0d; height:60px; line-height: 60px;
+			color:#fff;	text-transform:capitalize; text-align: center; float: left; .transition(all 0.3s);
+			.rtl &{
+				float: right;
+			}
+			&:hover{
+				color: @color; .transition(all 0.3s);
+			}
+		}
+		.mc4wp-success{
+			color: @body-color;
+		}		
+	}
+}
+.socials-ft{
+	text-align: center; float: left;
+	.rtl &{
+		float: right;
+	}
+	p{
+		font-size: 12px; color: #d1d1d1; line-height: 22px;
+	}
+	ul{
+		margin: 0; list-style: none;
+		li{
+			float: left;
+			.rtl &{
+				float: right;
+			}
+			a{
+				color: #8c8c8c; border-left: 1px @border-color solid; font-size: 18px; width: 60px; height: 60px; line-height: 60px;
+				display: inline-block; vertical-align: top; .transition(all 0.3s); 
+				.rtl &{
+					border-right: 1px @border-color solid; border-left: none;
+				}
+				&:hover{
+					color: @color; .transition(all 0.3s); background: @color; color: #fff;
+				}
+			}
+			&:last-child{
+				a{
+					border-right: 1px @border-color solid;
+					.rtl &{
+						border-left: 1px @border-color solid;
+					}
+				}
+			}
+		}
+	}
+}
+.border-ft{
+	border: 1px @border-color solid; border-width: 1px 0;
+	.wpb_raw_html, .wpb_content_element{
+		margin: 0; overflow: hidden;
+	}
+}
+.block-title2{
+	text-align: center; padding-bottom: 13px;
+	h3{
+		font-size: 30px; color: @body-color; font-weight: 600; text-transform: capitalize; margin-bottom: 13px;
+	}
+	.slider-description{
+		text-align: center; font-size: 14px; color: #666;
+	}
+}

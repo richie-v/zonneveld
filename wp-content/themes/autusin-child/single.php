@@ -1,0 +1,1 @@
+<?php autusin_content_detail_check() ?>
