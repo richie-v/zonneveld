@@ -9,11 +9,11 @@ function autusin_scripts() {
 	$scheme = ( $scheme_meta != '' && $scheme_meta != 'none' ) ? $scheme_meta : sw_options('scheme');
 	$autusin_direction = sw_options('direction');
 	
-	$app_css 	= get_template_directory_uri() . '/css/app-default.css';
-	$mobile_css = get_template_directory_uri() . '/css/mobile/mobile-default.css';
+	$app_css 	= get_stylesheet_directory_uri() . '/css/app-default.css';
+	$mobile_css = get_stylesheet_directory_uri() . '/css/mobile/mobile-default.css';
 	if ( $scheme ){
-		$app_css 	= get_template_directory_uri() . '/css/app-'.$scheme.'.css';
-		$mobile_css = get_template_directory_uri() . '/css/mobile-'.$scheme.'.css';
+		$app_css 	= get_stylesheet_directory_uri() . '/css/app-'.$scheme.'.css';
+		$mobile_css = get_stylesheet_directory_uri() . '/css/mobile-'.$scheme.'.css';
 		
 	} 
 
