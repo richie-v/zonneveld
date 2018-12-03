@@ -32,7 +32,7 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                                     <div id="lang_sel">
                                         <ul class="nav">
                                             <li>
-                                                <?php pll_current_language(  ); ?>
+                                                <?php echo pll_current_language(  ); ?>
                                                <!-- <?php /*if (pll_current_languague() == 'nl_NL') { */?>
                                                 <a class="lang_sel_sel icl-en" href="#">
                                                     <img class="iclflag" title="English" alt="en" src="/wp-content/themes/autusin/assets/img/en.png" width="18" height="12"/>
