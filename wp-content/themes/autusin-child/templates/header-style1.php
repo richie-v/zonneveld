@@ -42,7 +42,7 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                                                     <img class="iclflag" title="Nederlands" alt="ar" src="/wp-content/uploads/2018/10/nederlandse-vlag-png-2-1.png" width="18" height="12"/>
                                                     Nederlands
                                                 </a>
-                                                }
+                                                <?php } ?>
                                                 <ul>
                                                     <li class="icl-en">
                                                         <a href="[get_url]&amp;direction=ltr">
