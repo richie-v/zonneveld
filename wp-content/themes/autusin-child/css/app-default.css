@@ -14480,5 +14480,8 @@ h1.page-title {
 }
 
 .polylang-4 ul li a span {
+  font-size: 12px;
+  padding-top: 2px;
+  padding-left: 2px;
   float:right;
 }
