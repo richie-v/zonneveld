@@ -14469,6 +14469,15 @@ h1.page-title {
   color: white;
 }
 
-.polylang-4 ul li img {
+.polylang-4 ul li a{
+  float: left;
+}
+
+.polylang-4 ul li a img {
   padding-top: 5px;
+  float: left;
+}
+
+.polylang-4 ul li a span {
+  float:right;
 }
