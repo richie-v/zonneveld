@@ -14470,6 +14470,7 @@ h1.page-title {
 }
 
 .polylang-4 ul li a{
+  padding-top: 2px;
   float: left;
   color: #999;
 }
