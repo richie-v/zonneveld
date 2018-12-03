@@ -14460,16 +14460,6 @@ h1.page-title {
   border-top: 1px solid #ddd;
 }
 
-.polylang-4:before {
-  position: absolute;
-  top: 9px;
-  left: 0;
-  width: 1px;
-  height: 13px;
-  background: rgba(255,255,255,0.2);
-  content: "";
-}
-
 .polylang-4 ul {
   list-style: none;
 }
