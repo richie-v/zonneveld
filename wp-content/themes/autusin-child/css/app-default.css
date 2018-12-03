@@ -14459,3 +14459,7 @@ h1.page-title {
 .footer .widget.widget_nav_menu .widget-inner ul.menu > li ul.dropdown-menu > li:first-child {
   border-top: 1px solid #ddd;
 }
+
+.polylang-4 ul {
+  list-style: none;
+}
