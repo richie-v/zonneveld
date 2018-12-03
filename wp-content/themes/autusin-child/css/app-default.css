@@ -14463,3 +14463,12 @@ h1.page-title {
 .polylang-4 ul {
   list-style: none;
 }
+
+.polylang-4 ul li {
+  min-width: 70px;
+  color: white;
+}
+
+.polylang-4 ul li img {
+  padding-top: 5px;
+}
