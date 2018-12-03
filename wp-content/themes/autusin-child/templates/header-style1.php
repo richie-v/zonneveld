@@ -34,8 +34,8 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                                             <li>
                                                 <?php if (pll_current_language() == 'nl') { ?>
                                                 <a class="lang_sel_sel icl-en" href="#">
-                                                    <img class="iclflag" title="English" alt="en" src="/wp-content/themes/autusin/assets/img/en.png" width="18" height="12"/>
-                                                    English
+                                                    <img class="iclflag" title="Nederlands" alt="ar" src="/wp-content/uploads/2018/10/nederlandse-vlag-png-2-1.png" width="18" height="12"/>
+                                                    Nederlands
                                                 </a>
                                                 <?php } else if(pll_current_language() == 'en_GB') { ?>
                                                 <a class="lang_sel_sel icl-en" href="#">
