@@ -32,18 +32,17 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                                     <div id="lang_sel">
                                         <ul class="nav">
                                             <li>
-                                                <?php echo pll_current_language(  ); ?>
-                                               <!-- <?php /*if (pll_current_languague() == 'nl_NL') { */?>
+                                                <?php if (pll_current_languague( ) == 'nl') { ?>
                                                 <a class="lang_sel_sel icl-en" href="#">
                                                     <img class="iclflag" title="English" alt="en" src="/wp-content/themes/autusin/assets/img/en.png" width="18" height="12"/>
                                                     English
                                                 </a>
-                                                <?php /*} else { */?>
+                                                <?php } else { ?>
                                                 <a class="lang_sel_sel icl-en" href="#">
                                                     <img class="iclflag" title="Nederlands" alt="ar" src="/wp-content/uploads/2018/10/nederlandse-vlag-png-2-1.png" width="18" height="12"/>
                                                     Nederlands
                                                 </a>
-                                                --><?php /*} */?>
+                                                <?php } ?>
                                                 <ul>
                                                     <li class="icl-en">
                                                         <a href="[get_url]&amp;direction=ltr">
