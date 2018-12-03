@@ -29,7 +29,7 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                         <div class="widget_text widget-inner">
                             <div class="textwidget custom-html-widget">
                                 <div id="lang_sel">
-                                    <ul class="nav">
+                                    <div id="lang_sel">
                                         <ul class="nav">
                                             <li>
                                                 <a class="lang_sel_sel icl-en" href="#">
@@ -52,7 +52,7 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                                                 </ul>
                                             </li>
                                         </ul>
-                                    </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
