@@ -30,7 +30,28 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                             <div class="textwidget custom-html-widget">
                                 <div id="lang_sel">
                                     <ul class="nav">
-                                        <?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?>
+                                        <ul class="nav">
+                                            <li>
+                                                <a class="lang_sel_sel icl-en" href="#">
+                                                    <img class="iclflag" title="English" alt="en" src="[bloginfo]/wp-content/themes/autusin/assets/img/en.png" width="18" height="12"/>
+                                                    English
+                                                </a>
+                                                <ul>
+                                                    <li class="icl-en">
+                                                        <a href="[get_url]&amp;direction=ltr">
+                                                            <img class="iclflag" title="English" alt="en" src="[bloginfo]/wp-content/themes/autusin/assets/img/en.png" width="18" height="12"/>
+                                                            English
+                                                        </a>
+                                                    </li>
+                                                    <li class="icl-ar">
+                                                        <a href="[get_url]&amp;direction=rtl">
+                                                            <img class="iclflag" title="Nederlands" alt="ar" src="[bloginfo]//wp-content/uploads/2018/10/nederlandse-vlag-png-2-1.png" width="18" height="12"/>
+                                                            Nederlands
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
                                     </ul>
                                 </div>
                             </div>
