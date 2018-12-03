@@ -29,7 +29,7 @@ $autusin_menu_text = (sw_options('menu_title_text')) ? sw_options('menu_title_te
                         <div class="widget_text widget-inner">
                             <div class="textwidget custom-html-widget">
                                 <div id="lang_sel">
-                                    <ul class="nav">
+                                    <ul class="lang-switch">
                                         <?php pll_the_languages(array('show_flags'=>1,'show_names'=>1));?>
                                     </ul>
                                 </div>
