@@ -64,15 +64,6 @@
 			<?php if ( have_posts() ) : ?>
 				<?php do_action('woocommerce_message'); ?>
 				
-				<?php 					
-					woocommerce_product_loop_start();					
-					if( sw_woocommerce_version_check( '3.3' ) ){
-						echo apply_filters( 'autusin_custom_category', $html = '' );
-					}else{
-						woocommerce_product_subcategories(); 
-					}
-					woocommerce_product_loop_end(); 
-				?>
 				<?php
 					/**
 					 * woocommerce_before_shop_loop hook
