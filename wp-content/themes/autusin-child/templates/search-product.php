@@ -59,15 +59,15 @@
 			<div class="content_list_product">
 				<div class="products-wrapper">		
 				<?php
-					$product_query = new wp_query( $args_product );
+		$product_query = new wp_query( $args_product );
 					if( $product_query -> have_posts() && $check ){
 				?>
 					<ul id="loop-products" class="products-loop row clearfix grid-view grid">
-					<?php 
+<?php 
 						while( $product_query -> have_posts() ) : $product_query -> the_post(); 
 						global $product, $post;
 						$product_id = $post->ID;
-					?>
+?>
 						<li <?php post_class( autusin_product_attribute() ); ?>>
 							<div class="item-wrap">
 								<div class="item-detail">										
